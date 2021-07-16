@@ -1,5 +1,7 @@
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .carousel {
@@ -7,6 +9,10 @@
     overflow: scroll;
     padding: 30px;
     position: relative;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .carousel__container {
